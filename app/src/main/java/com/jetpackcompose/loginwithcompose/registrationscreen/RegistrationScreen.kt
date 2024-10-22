@@ -3,7 +3,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.ArrowBack
+import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -50,7 +50,7 @@ fun RegistrationScreen(
                     .padding(horizontal = AppTheme.dimens.paddingLarge)
                     .padding(top = AppTheme.dimens.paddingLarge),
                 iconContentDescription = stringResource(id = R.string.navigate_back),
-                iconVector = Icons.Outlined.ArrowBack,
+                iconVector = Icons.AutoMirrored.Outlined.ArrowBack,
                 text = stringResource(id = R.string.back_to_login),
                 onClick = onNavigateBack
             )
